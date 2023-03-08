@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(78, 27, 27, 0.477);
+}
+.navigation {
+    display: flex;
+  }
+
+  .navigation a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+  }
+
+  .navigation a:hover {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+}
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+th {
+    background-color: #E67E22;
+    color: #fff;
+}
+img {
+    height: 100px;
+    width: auto;
+}
