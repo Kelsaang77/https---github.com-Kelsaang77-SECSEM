@@ -39,7 +39,7 @@ function lessThan100(a,b){
 
     }
     else{
-        console.lof(false);
+        console.log(false);
         return false;
     }
 }
@@ -132,3 +132,4 @@ function binary(a){
 binary(10);
 binary(15);
 binary(1025);
+    
